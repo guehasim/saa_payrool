@@ -1,0 +1,423 @@
+.home-ui #content .navbar {
+    padding: 15px 0px;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 10px;
+}
+
+.table-popup tbody tr td,
+#modalDetailChart, 
+#modalDetailChart span {
+    color: #454545 !important;
+}
+
+.home-ui .navbar-title {
+    background-color: #5b3a90 !important;
+    color: #fff;
+    text-align: center;
+}
+
+.home-ui .filter-dept {
+    font-size: 13px;
+    height: calc(1.8rem + 2px) !important;
+    background-color: #000;
+    color: #fff;
+    padding: 2px;
+    
+}
+
+.home-ui .filter-dept:focus,
+.home-ui .filter-dept:active {
+    outline: none !important;
+}
+
+.home-ui .navbar-title .button-and-calendar {
+    position: absolute;
+    display: flex;
+}
+
+.home-ui .navbar-title button:active,
+.home-ui .navbar-title button:focus {
+    outline: none !important;
+}
+
+.home-ui .navbar-title h1 {
+    color: #fff !important;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.home-ui #content .navbar .container-fluid {
+    padding: 0px;
+}
+
+.home-ui #content .navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+.home-ui .line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+.home-ui .table-sm {
+    margin: 0px;
+}
+
+.container-table {
+    max-height: 250px;
+    overflow: auto;
+}
+
+.home-ui .table-complete tbody td {
+    background: #1e6720;
+    color: #fff;
+}
+
+.home-ui .table-not-complete tbody td {
+    background: #b1191e;
+    color: #fff;
+}
+
+.home-ui .pagination {
+    margin-bottom: 0px !important;
+}
+
+.home-ui .pagination li {
+    background: none !important;
+}
+
+.home-ui .pagination li a {
+    background: #f7941d !important;
+    height: 22px !important;
+    color: #fff !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 0.8em !important;
+}
+
+.home-ui .pagination li:first-child a{
+    min-width: 80px !important;
+}
+
+.home-ui .container-table::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(194, 192, 163, 0.3);
+	background-color: #F5F5F5;
+}
+
+.home-ui .container-table::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+.home-ui .container-table::-webkit-scrollbar-thumb
+{
+	background-color: #f7941d;
+}
+
+.home-ui .table-sm thead tr td,
+.home-ui .table-sm thead tr th,
+.home-ui .table-sm tbody tr td {
+    padding: 3px 10px;
+    font-size: 0.8em;
+}
+
+.home-ui .table-sm thead tr td,
+.home-ui .table-sm thead tr th {
+    background-color: #5b3a90;
+}
+
+.home-ui .color-orange {
+    color: #ffeb3b;
+}
+
+.home-ui .bg-green {
+    background: #1e6720;
+}
+
+.home-ui .bg-red {
+    background-color: #b1191e !important;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+.home-ui .wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    perspective: 1500px;
+}
+
+
+.home-ui #sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background: #373737;
+    color: #fff;
+    height: 90vh;
+    /* transition: all 0.6s cubic-bezier(0.945, 0.020, 0.270, 0.665);
+    transform-origin: bottom left; */
+}
+
+.home-ui #sidebar.active {
+    margin-left: -250px;
+    transform: rotateY(100deg);
+}
+
+.home-ui #sidebar .sidebar-header {
+    padding: 20px;
+    background: #373737;
+}
+
+.home-ui #sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #373737;
+}
+
+.home-ui #sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+.home-ui #sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    color: #fff !important;
+}
+.home-ui #sidebar ul li a:hover {
+    color: #fff;
+    background: #504f4f;
+}
+
+.home-ui #sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: #fff;
+    background: #504f4f;
+}
+
+
+.home-ui a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.home-ui .dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.home-ui ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #373737;
+}
+
+.home-ui ul.CTAs {
+    padding: 20px;
+}
+
+.home-ui ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.home-ui a.download {
+    background: #fff;
+    color: #373737;
+}
+
+.home-ui a.article, a.article:hover {
+    background: #373737 !important;
+    color: #fff !important;
+}
+
+
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+.home-ui #content {
+    width: 100%;
+    padding: 20px;
+    /* min-height: 100vh; */
+    transition: all 0.3s;
+}
+
+.home-ui #sidebarCollapse {
+    width: 40px;
+    height: 40px;
+    background: #4caf50;
+    cursor: pointer;
+    border-radius: 2px;
+    color: #fff;
+    border: none;
+}
+
+.home-ui .datefilter input{
+    background: transparent;
+    color: #f7f7f7;
+    padding: 13px 12px;
+    border-radius: 0;
+    border-right: none;
+    width: 110px;
+}
+
+.home-ui .datefilter .input-group-text {
+    background: #4caf50;
+    color: #fff;
+    border-left: none;
+    border: 0px;
+}
+
+.home-ui .home-page .form-control {
+    height: calc(2.5rem + 2px);
+}
+
+.home-ui #sidebarCollapse span {
+    width: 80%;
+    height: 2px;
+    margin: 0 auto;
+    display: block;
+    background: #fff;
+    transition: all 0.8s cubic-bezier(0.810, -0.330, 0.345, 1.375);
+    transition-delay: 0.2s;
+}
+
+.home-ui #sidebarCollapse span:first-of-type {
+    transform: rotate(45deg) translate(2px, 2px);
+}
+.home-ui #sidebarCollapse span:nth-of-type(2) {
+    opacity: 0;
+}
+.home-ui #sidebarCollapse span:last-of-type {
+    transform: rotate(-45deg) translate(1px, -1px);
+}
+
+
+.home-ui #sidebarCollapse.active span {
+    transform: none;
+    opacity: 1;
+    margin: 5px auto;
+}
+
+/* ----------------------------------------
+Page Pemeriksaan
+------------------------------------------- */
+
+.page-pemeriksaan .table-detail-pemeriksaan tbody tr td{
+    border-bottom: 1px solid #454545;
+    border-top: none;
+    padding: 7px 10px;
+}
+
+.page-pemeriksaan .scandata {
+    background: #393939;
+    border: none;
+    border-radius: 0px;
+    color: #f7f7f7;
+}
+
+.page-pemeriksaan .input-group-text {
+    background-color: #616161;
+    color: #f7f7f7;
+    border: none;
+}
+
+.page-pemeriksaan .container-table {
+    max-height: 250px;
+    overflow: auto;
+}
+
+.page-pemeriksaan .container-table::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(194, 192, 163, 0.3);
+	background-color: #F5F5F5;
+}
+
+.page-pemeriksaan .container-table::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+.page-pemeriksaan .container-table::-webkit-scrollbar-thumb
+{
+	background-color: #f7941d;
+}
+
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+/* @media (max-width: 3840px) { 
+    .home-ui .page-home h4,
+    .home-ui .table-sm thead tr td,
+    .home-ui .table-sm thead tr th,
+    .home-ui .table-sm tbody tr td {
+        font-size: 3.3vh;
+    }
+}
+
+@media (max-width: 1920px) { 
+    .home-ui .page-home h4,
+    .home-ui .table-sm thead tr td,
+    .home-ui .table-sm thead tr th,
+    .home-ui .table-sm tbody tr td {
+        font-size: 2.9vh;
+    }
+}
+
+@media (max-width: 1366px) { 
+    .home-ui .page-home h4,
+    .home-ui .table-sm thead tr td,
+    .home-ui .table-sm thead tr th,
+    .home-ui .table-sm tbody tr td {
+        font-size: 2.3vh;
+    }
+} */
+
+/* @media (max-width: 768px) { */
+    .home-ui #sidebar {
+        margin-left: -250px;
+        transform: rotateY(90deg);
+    }
+    .home-ui #sidebar.active {
+        margin-left: 0;
+        transform: none;
+    }
+    .home-ui #sidebarCollapse span:first-of-type,
+    .home-ui #sidebarCollapse span:nth-of-type(2),
+    .home-ui #sidebarCollapse span:last-of-type {
+        transform: none;
+        opacity: 1;
+        margin: 5px auto;
+    }
+    .home-ui #sidebarCollapse.active span {
+        margin: 0 auto;
+    }
+    .home-ui #sidebarCollapse.active span:first-of-type {
+        transform: rotate(45deg) translate(2px, 2px);
+    }
+    .home-ui #sidebarCollapse.active span:nth-of-type(2) {
+        opacity: 0;
+    }
+    .home-ui #sidebarCollapse.active span:last-of-type {
+        transform: rotate(-45deg) translate(1px, -1px);
+    }
+
+/* } */
